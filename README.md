@@ -6,7 +6,7 @@ First you need to choose the versions: *build*(folder `build`) or *inline*(folde
 To understand exactly what you need, you need to answer on one question: Are you going to change the styles (CSS) and / or scripts (JS)?
 If yes, so choose *build*, otherwise choose *inline*. In case, *inline* is more optimized than build, so we recommend to use *inine* version.
 
-> In order to make any changes, you need to open the file you need via text editor (for example, [Sublime text 3] (https://www.sublimetext.com/3) or [Nodepad ++](https: // notepad- plus-plus.org/)).
+> In order to make any changes, you need to open the file you need via text editor (for example, [Sublime text 3](https://www.sublimetext.com/3) or [Nodepad++](https://notepad-plus-plus.org/)).
 To find the line you need, use CTRL + F on Windows and CMD + F on MacOS. You also need to save the file after all the changes you made.
 
 
@@ -18,8 +18,8 @@ To find the line you need, use CTRL + F on Windows and CMD + F on MacOS. You als
 4. Replace `Google account email` by new Google account from first step.
 5. Find the line with `Google account password`.
 6. Replace `Google account password` by password from new Google account from first step.
-7. Find the line with `To who email`.
-8. Replace `To who email` by your email address to which you want to receive messages from this form.
+7. Find the line with `Email to`.
+8. Replace `Email to` by your email address to which you want to receive messages from this form.
 
 
 ## Sending emails from the site
