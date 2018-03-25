@@ -1,51 +1,54 @@
-# Инструкция к проекту DomainKeeper
+# Setup guide for DomainKeeper
 
-[Инструкция на русском](https://github.com/SilencerWeb/domainkeeper-guide/blob/master/Russian.md)
+[Russian version / На русском](https://github.com/SilencerWeb/domainkeeper-guide/blob/master/Russian.md)
 
-Для начала нужно определиться с версий: *build*(папка `build`) или *inline*(папка `inline`)? Чтобы понять какая именно вам нужна, вам нужно задать один вопрос: Вы собираетесь изменять стили(CSS) и/или скрипты(JS)? Если да, то выбирайте *build*, в противном же случае выбирайте *inline*. К тому же, *inline* более оптимизирована чем build, поэтому мы рекомендуем использовать именно ее.
+First you need to choose the versions: *build*(folder `build`) or *inline*(folder `inline`)? 
+To understand exactly what you need, you need to answer on one question: Are you going to change the styles (CSS) and / or scripts (JS)?
+If yes, so choose *build*, otherwise choose *inline*. In case, *inline* is more optimized than build, so we recommend to use *inine* version.
 
-> Для того чтобы внести какие-либо изменения нужно открыть нужный вам файл с помощью текстового редактора(например, [Sublime text 3](https://www.sublimetext.com/3) или [Nodepad++](https://notepad-plus-plus.org/)). Для поиска нужной вам строки используйте сочетание клавиш CTRL + F на Windows и CMD + F на MacOS. Также после всех внесенных вами изменений нужно сохранить файл.
-
-
-## Настройка отправки писем с сайта
-
-1. Зарегистрируйте новый [Google-аккаунт](https://accounts.google.com/SignUp?hl=ru).
-2. Откройте файл `mail.php`, который находится в папке `server` с помощью текстового редактора.
-3. Найдите строку, в которой есть `Google account email`.
-4. Замените `Google account email` на адрес почты зарегистрированного вами Google-аккаунта.
-5. Найдите строку, в которой есть `Google account password`.
-6. Замените `Google account password` на пароль зарегистрированного вами Google-аккаунта.
-7. Найдите строку, в которой есть `To who email`.
-8. Замените `To who email` на адрес почты, куда вы хотите получать сообщения с сайта.
+> In order to make any changes, you need to open the file you need via text editor (for example, [Sublime text 3] (https://www.sublimetext.com/3) or [Nodepad ++](https: // notepad- plus-plus.org/)).
+To find the line you need, use CTRL + F on Windows and CMD + F on MacOS. You also need to save the file after all the changes you made.
 
 
-## FAQ по отправке писем с сайта
-> Для того чтобы внести какие-либо изменения нужно открыть `mail.php`, который находится в папке `server` с помощью текстового редактора.
+## Setup contact form
 
-### Как изменить имя отправителя?
-1. Найти строку, в которой есть `From who name`.
-2. Заменить `From who name` на нужное вам имя отправителя.
+1. Create new [Google account](https://accounts.google.com/SignUp).
+2. Open `mail.php`, from `server` folder via any text editor.
+3. Find the line with `Google account email`.
+4. Replace `Google account email` by new Google account from first step.
+5. Find the line with `Google account password`.
+6. Replace `Google account password` by password from new Google account from first step.
+7. Find the line with `To who email`.
+8. Replace `To who email` by your email address to which you want to receive messages from this form.
 
-### Как изменить тему сообщения?
-1. Найти строку, в которой есть `Subject text`.
-2. Заменить `Subject text` на нужную вам тему сообщения.
+
+## Sending emails from the site
+> In order to make any changes you need to open `mail.php`, which is located in the `server` folder via any text editor.
+
+### How to change the sender's name?
+1. Find the line with `From who name`.
+2. Replace `From who name` by the sender name you need.
+
+### How to change the subject of a email?
+1. Find the line with `Subject text`.
+2. Replace `Subject text` by message subject you need.
 
 
-## FAQ по изменению HTML-страниц
-> Для того чтобы внести какие-либо изменения нужно открыть нужную вам HTML-страницу с помощью текстового редактора.
+## HTML pages
+> In order to make any changes you need to open the HTML-page via text editor.
 
-### Как изменить адрес почты?
-  1. Найти все строки, в которых есть `example@gmail.com`.
-  2. Заменить `example@gmail.com` на нужный вам адрес почты.
-   
-### Как изменить номер телефона?
-  1. Найти все строки, в которых есть `7861234567`.
-  2. Заменить `7861234567` на нужный вам номер телефона.
-   
-### Как изменить какой-либо текст?
-  1. Найти нужный вам текст.
-  2. Заменить его.
-  
-### Как изменить адрес ссылки?
-  1. Найти нужную вам ссылку.
-  2. Заменить значение атрибута `href` на нужную вам ссылку.
+### How to change the email address?
+1. Find all the lines with `example@gmail.com`.
+2. Replace `example @ gmail.com` by the email address you need.
+   
+### How to change my phone number?
+1. Find all the lines with `7861234567`.
+2. Replace `7861234567` by your phone number.
+   
+### How to change any text?
+1. Find the text.
+2. Replace it.
+  
+### How do I change the link address?
+1. Find the link you need.
+2. Replace the value of the `href` attribute with the link you need. 
