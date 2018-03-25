@@ -1,6 +1,6 @@
 # Инструкция к проекту DomainKeeper
 
-[In English](https://github.com/SilencerWeb/domainkeeper-guide/edit/master/README.md)
+[In English](https://github.com/SilencerWeb/domainkeeper-guide/blob/master/README.md)
 
 Для начала нужно определиться с версий: *build*(папка `build`) или *inline*(папка `inline`)? Чтобы понять какая именно вам нужна, вам нужно задать один вопрос: Вы собираетесь изменять стили(CSS) и/или скрипты(JS)? Если да, то выбирайте *build*, в противном же случае выбирайте *inline*. К тому же, *inline* более оптимизирована чем build, поэтому мы рекомендуем использовать именно ее.
 
