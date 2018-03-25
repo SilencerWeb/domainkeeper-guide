@@ -18,21 +18,14 @@ To find the line you need, use CTRL + F on Windows and CMD + F on MacOS. You als
 4. Replace `Google account email` by new Google account from first step.
 5. Find the line with `Google account password`.
 6. Replace `Google account password` by password from new Google account from first step.
-7. Find the line with `Email to`.
-8. Replace `Email to` by your email address to which you want to receive messages from this form.
-
-
-## Sending emails from the site
-> In order to make any changes you need to open `mail.php`, which is located in the `server` folder via any text editor.
-
-### How to change the sender's name?
-1. Find the line with `From who name`.
-2. Replace `From who name` by the sender name you need.
-
-### How to change the subject of a email?
-1. Find the line with `Subject text`.
-2. Replace `Subject text` by message subject you need.
-
+7. Find the line with `Email from`.
+8. Replace `Email from` by any email, it doesn't matter.
+9. Find the line with `Email to`.
+10. Replace `Email to` by your email address to which you want to receive messages from this form.
+11. Find the line with `From who name`.
+12. Replace `From who name` by the sender name you need.
+13. Find the line with `Subject text`.
+14. Replace `Subject text` by message subject you need.
 
 ## HTML pages
 > In order to make any changes you need to open the HTML-page via text editor.
