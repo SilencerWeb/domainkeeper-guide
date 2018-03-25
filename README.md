@@ -1,6 +1,6 @@
 # Setup guide for DomainKeeper
 
-[Russian version / На русском](https://github.com/SilencerWeb/domainkeeper-guide/blob/master/Russian.md)
+[На русском](https://github.com/SilencerWeb/domainkeeper-guide/blob/master/Russian.md)
 
 First you need to choose the versions: *build*(folder `build`) or *inline*(folder `inline`)? 
 To understand exactly what you need, you need to answer on one question: Are you going to change the styles (CSS) and / or scripts (JS)?
