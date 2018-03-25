@@ -45,3 +45,6 @@ To find the line you need, use CTRL + F on Windows and CMD + F on MacOS. You als
 ### How do I change the link address?
 1. Find the link you need.
 2. Replace the value of the `href` attribute with the link you need. 
+
+## Contacts
+Do you still have questions? Feel free to create a new ticket here – https://wiwka.freshdesk.com or send us an email – feedback@wiwka.com
