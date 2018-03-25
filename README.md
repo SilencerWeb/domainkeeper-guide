@@ -19,7 +19,7 @@ To find the line you need, use CTRL + F on Windows and CMD + F on MacOS. You als
 5. Find the line with `Google account password`.
 6. Replace `Google account password` by password from new Google account from first step.
 7. Find the line with `Email from`.
-8. Replace `Email from` by any email, it doesn't matter.
+8. Replace `Email from` by an any email, it doesn't matter.
 9. Find the line with `Email to`.
 10. Replace `Email to` by your email address to which you want to receive messages from this form.
 11. Find the line with `From who name`.
